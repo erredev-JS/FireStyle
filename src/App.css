@@ -3,3 +3,11 @@
 .antiqua {
   font-family: 'Inknut Antiqua', sans-serif;
 }
+
+.customBack{
+  background-color: #171716;
+}
+
+.customShadow {
+  box-shadow: 5px 5px 2px rgba(95, 95, 95, 0.76);
+}
