@@ -17,7 +17,7 @@ export const ProductCard: FC<Props> = ({product}) => {
   }
 
   return (
-    <div className="w-full m-auto min-h-[340px] h-[300px] max-w-[400px] rounded-2xl overflow-hidden text-white relative customShadow">
+    <div className="w-full m-auto min-h-[280px] h-[340px] max-w-[340px] rounded-2xl overflow-hidden text-white relative customShadow">
         <div className="h-2/3 w-full">
             <img src={product.Imagen} alt="" className="h-full w-full object-fit"/>
         </div>

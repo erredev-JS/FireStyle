@@ -11,9 +11,9 @@ export const HamburguerMenu = () => {
         <button className="text-3xl absolute cursor-pointer" onClick={() => toggleMenu()}>X</button>
       </div>
       <div className=" h-full flex flex-col text-center text-2xl gap-5">
-        <a href="#" className="py-1 hover:bg-gray-400">Inicio</a>
-        <a href="#" className="py-1 hover:bg-gray-400">Productos</a>
-        <a href="#" className="py-1 hover:bg-gray-400">Sobre nosotros</a>
+        <a href="#home" className="py-1 hover:bg-gray-400">Inicio</a>
+        {/* <a href="#" className="py-1 hover:bg-gray-400">Productos</a> */}
+        <a href="#about" className="py-1 hover:bg-gray-400">Sobre nosotros</a>
       </div>
       </div>
     </>

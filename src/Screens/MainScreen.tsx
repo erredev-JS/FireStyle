@@ -5,7 +5,7 @@ import { ListProducts } from "../Components/ListProducts";
 
 export const MainScreen = () => {
   return (
-    <div className="bg-gray-300 min-h-[100vh]">
+    <div className="bg-gray-300 min-h-[100vh]" id="home">
     <Header/>
     <ListProducts/>
     <About/>

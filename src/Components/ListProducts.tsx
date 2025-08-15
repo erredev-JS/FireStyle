@@ -15,10 +15,10 @@ export const ListProducts = () => {
   }, []);
 
   return (
-    <div className="py-8 min-h-[70vh] ">
-      <h2 className="text-center antiqua text-3xl">Nuestros Productos</h2>
+    <div className="py-8 ">
+      <h2 className="text-center antiqua text-3xl mb-8">Nuestros Productos</h2>
 
-      <div className="flex flex-col gap-5 m-auto w-8/10 mt-5 max-h-[600px]    overflow-y-scroll">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 max-h-[800px] overflow-auto pb-5">
         
         {products.map((product) => <ProductCard product={product}/>)}
       </div>
