@@ -1,6 +1,5 @@
 import { FC } from "react";
 import { IProduct } from "../Types/IProduct";
-import useMenuHamburguer from "../Store/useMenuStore";
 
 interface Props {
     product: IProduct
