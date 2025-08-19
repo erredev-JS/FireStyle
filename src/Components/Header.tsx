@@ -7,7 +7,7 @@ export const Header = () => {
     <header className="bg-black h-[10vh] px-6 text-white flex items-center justify-between">
       <h1 className="antiqua text-2xl">FireStyle</h1>
 
-      <img src="./icons/menu.svg" alt="" className="w-8 cursor-pointer hover:scale-110 md:hidden z-50" onClick={() => toggleMenu()} />
+      <img src="./icons/menu.svg" alt="" className="w-8 cursor-pointer hover:scale-110 md:hidden z-40" onClick={() => toggleMenu()} />
       <div className="h-full hidden md:flex flex-row items-center text-center text-2xl gap-5">
         <a href="#home" className="p-1 hover:bg-gray-400">
           Inicio
